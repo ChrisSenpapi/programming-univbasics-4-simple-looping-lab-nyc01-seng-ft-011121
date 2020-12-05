@@ -1,4 +1,7 @@
-loop_message_five_times do 
-  counter = 5
-  puts "Hello World."
-end
+def loop_message_five_times("Hello World.")
+  count = 0 
+  while count < 5 do
+    puts "Hello World."
+    count += 1 
+  end
+end 
